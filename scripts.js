@@ -3,7 +3,7 @@ const searchBtn = document.getElementById("searchBtn");
 const weatherResult = document.getElementById("weatherResult");
 
 // Add your OpenWeather API key here
-const apiKey = "PASTE_YOUR_API_KEY_HERE";
+const apiKey = "a1be4993f09f27ee845a6c0e2a5f6066s";
 
 async function getWeather() {
     const city = cityInput.value.trim();
